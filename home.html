@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XXXXXXXX</title>
+    <style>
+        #block-menu-menu-student-header-m-anonymous{
+            width: 100%;
+            height: 400px;
+            background-image: url("ヘッダーイメージ.jpg");
+            background-position: 50% 20%;
+            background-size: cover;
+            color:white;
+        }
+        .menu_nav,#dropdown-menu{
+            background-color: cornflowerblue;
+            display: inline-block;
+            padding: 0px 10px 20px 10px;
+            width: 1350px;
+            margin-top: 0px; 
+            height: 50px;  
+            text-align: center;
+         }
+        ul,li {
+            display: inline-block;
+            padding: 26px 10px 20px 10px;
+        }
+        #title{
+            text-align: right;
+        }
+        .teacher_list{
+            height: 300px; 
+        }
+        .item1{
+            margin-left: 50px;
+            text-decoration: underline;
+        }
+        .contens{
+            margin-left: 100px;
+        }
+        .contens_list{
+            margin-left: 150px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <section id="block-menu-menu-student-header-m-anonymous">
+            <ul class="menu_nav">
+                <li class="menu"><a href="" title="" class="active">IT先生探し</a></li>
+                <li class="menu"><a href="" title="" class="active">🏠ホーム</a></li>
+                <li class="menu"><a href="" class="search-link">🔍先生探す!</a></li>
+                <li class="menu"><a id="hazimete" href=""> 🔰初めての方へ<span>▼</span></a></li>
+                </li>
+            </ul>
+            <ul id="dropdown-menu" style = " display: none ;" data-toggle="dropdown">
+                <li class="leaf"><a href="">イントロダクション</a></li>
+                <li class="leaf"><a href="">ご利用料金</a></li>
+                <li class="leaf"><a href="">使い方</a></li>
+                <li class="leaf"><a href="">メール例 (レッスン依頼)</a></li>
+                <li class="leaf"><a href="">メール例(交渉・相談)</a></li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <div class = 'main'>
+            <div class ='teacher_list'>
+            </div>
+            <ul class='contens'>
+                <li>
+                    <img src="lang.jpg" alt="">
+                    <div class='item1'>プログラミング言語</div>
+                </li>
+                <li class='contens_list'>
+                    <img src="map.jpg" alt="">
+                    <div class='item1'>レッスン地域</div>
+                </li>
+                <li class='contens_list'>
+                    <img src="money.jpg" alt="">
+                    <div class='item1'>レッスン料金</div>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+<script src='main.js'></script>
+</body>
+</html>
